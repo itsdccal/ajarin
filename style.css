@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  /* background-color: #000; */
+  position: relative;
+  z-index: 10;
+}
+
+#ajarin {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #efeae3;
+  position: relative;
+  padding: 0 2vw;
+}
