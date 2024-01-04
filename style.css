@@ -48,8 +48,48 @@ nav {
   z-index: 100;
   justify-content: space-between;
 }
+
 #nav-button {
   display: flex;
   align-items: center;
   gap: 1vw;
+}
+#nav-button h4 {
+  padding: 10px 20px;
+  border: 1px solid #0000003c;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #000000bb;
+  transition: all ease 0.4s;
+  position: relative;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+#nav-button h4::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  left: 0;
+  bottom: -100%;
+  border-radius: 50%;
+  transition: all ease 0.4s;
+}
+
+#nav-button h4:hover::after {
+  bottom: 0;
+  border-radius: 0;
+}
+
+#nav-button h4 a {
+  color: #000000bb;
+  text-decoration: none;
+  position: relative;
+  z-index: 9;
+}
+
+#nav-button h4:hover a {
+  color: #fff;
 }
