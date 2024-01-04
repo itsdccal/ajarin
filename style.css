@@ -1,3 +1,27 @@
+@font-face {
+  font-family: neu;
+  src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+  font-family: neu;
+  font-weight: 100;
+  src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+  font-family: neu;
+  font-weight: 200;
+  src: url(./NeueHaasDisplayRoman.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: neu;
+}
+
 html,
 body {
   height: 100%;
@@ -5,12 +29,6 @@ body {
 }
 
 #main {
-  /* background-color: #000; */
-  position: relative;
-  z-index: 10;
-}
-#main {
-  /* background-color: #000; */
   position: relative;
   z-index: 10;
 }
@@ -29,4 +47,9 @@ nav {
   position: relative;
   z-index: 100;
   justify-content: space-between;
+}
+#nav-button {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
 }
