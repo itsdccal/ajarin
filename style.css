@@ -50,7 +50,7 @@ nav {
   justify-content: space-between;
 }
 
-.nav-button {
+#nav-button {
   display: flex;
   align-items: center;
   gap: 1vw;
