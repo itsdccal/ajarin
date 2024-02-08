@@ -36,7 +36,4 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 Explore the lessons and interactive content available on the ajarin website. Navigate through different sections and enjoy a personalized learning experience.
 
-## Contributing
-
-Contributions are welcome! If you would like to contribute to the project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
